@@ -1,0 +1,13 @@
+우리는 4명이 함께 “인스타그램과 유사한 앱”의 MVP를 만듭니다.
+범위: 회원가입/로그인, 피드 목록, 새 글 작성(텍스트+이미지), 좋아요/댓글, 로컬 개발서버만 운영합니다.
+
+[제약 & 기술 스택]
+- 프론트: React
+- 백엔드: FastAPI
+
+[원하는 출력 형식]
+1) “폴더/파일 구조” 제안 (frontend/, backend/ 세부 파일 포함)  
+2) “API 계약서(min spec)” 작성  
+   - POST /auth/signup, POST /auth/login
+   - GET/POST /posts, GET /posts/{id}, POST/DELETE /posts/{id}/like, POST /posts/{id}/comments
+   - 응답 필드 예시 포함(샘플 JSON)
